@@ -34,10 +34,15 @@ And you're ready to start developing! :sparkles:
 ```shell
 $ tree
 .
-├── expert_disco        # global stuff like settings, utils, etc
+├── LICENSE
+├── README.md
+├── expert_disco        # contains global stuff like settings, utils, models, etc
 │   ├── __init__.py     # bootstrap file. initialise your extensions here
 │   └── settings.py
 ├── main.py             # entry point
+├── polls               # app (example)
+│   ├── __init__.py     # Blueprints are created here
+│   └── views.py        # here you put your views and tie them to a Blueprint
 └── requirements.txt
 ```
 
